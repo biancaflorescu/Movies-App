@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+
+    <link rel="stylesheet" href="/assets/css/movies.css">
+
+    <script src="/assets/js/saveMovie.js" type="module" defer></script>
+</head>
+
+<body>
+    <nav>
+        <h1>Movies App</h1>
+        <a href="/home.html">Home</a>
+        <a href="/movies.html">View Movies</a>
+    </nav>
+
+    <div id="form-container">
+        <form id="addMovieForm">
+            <div class="input-div">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+            </div>
+
+            <div class="input-div">
+                <label for="actors">Main Actors</label>
+                <input type="text" id="actors" name="actors">
+
+            </div>
+
+            <div class="input-div">
+                <label for="genre">Genre</label>
+                <input type="text" id="genre" name="genre">
+            </div>
+
+            <div class="input-div">
+                <label for="image">Image URL</label>
+                <input type="text" id="image" name="image">
+            </div>
+
+            <button id="save-movie-btn">Save Movie</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: hue;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#headerContent {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000b6;
+  padding: 3rem 0;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #ffffff;
+  font-family: "Lobster", sans-serif;
+}
+
+p {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#headerBtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.headerBtn {
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  color: #264653;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+
+.headerBtn:hover {
+  opacity: 0.9;
+}
+
+.headerBtn:first-child {
+  margin-right: 2rem;
+}
